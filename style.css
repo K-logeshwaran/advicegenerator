@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: hsl(193, 38%, 86%);
+}
+.attribution{
+    position: absolute;
+    bottom: 0;
+}
+
+.container{
+    width: 50%;   
+    background-color:hsl(217, 19%, 24%) ;
+    border-radius: 5px;
+    padding: 1.5rem;
+    padding-bottom: 2.1rem;
+}
+.divider{text-align: center;}
+.advice-id{
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+}
+.icon{text-align: center;margin-top: 10px;}
+.icon button{
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color:hsl(150, 100%, 66%);
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;  
+    transform: translateX(-50%);
+}
+
+.icon button:hover{
+    background-color: hsl(150, 60%, 37%);
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;   
+        background-color:hsl(217, 19%, 24%) ;
+        border-radius: 5px;
+        padding: 1.5rem;
+        padding-bottom: 2.1rem;
+    }
+  }
